@@ -1,11 +1,15 @@
-<h1>letsgo</h2>
+# letsgo
 (Toy Project) A simple TCP chat server written in Golang
 
-<h4>Planned Features</h4>
+#### Planned Features
 - [ ] TCP Server
+
 - [ ] TCP Client
+
 - [ ] TCP Server which supports Concurrency
+
 - [ ] Test Code
+
 - [ ] Docker Environment
 
 <h4>Reference</h4>
