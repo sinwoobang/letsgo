@@ -56,3 +56,23 @@ func (c *TcpChatClient) Start() {
 		}
 	}
 }
+
+func (c *TcpChatClient) SetName(name string) error {
+	// The interface method that sets name.
+	c.name = name
+	command := protocol.NameCommand{
+		Name: name,
+	}
+	err := c.Send(command)
+	return err
+}
+
+func (c *TcpChatClient) SendMessage(message string) error {
+	// The interface method that sends a message.
+	command := protocol.MessageCommand{
+		Name:    c.name,
+		Message: message,
+	}
+	err := c.Send(command)
+	return err
+}
