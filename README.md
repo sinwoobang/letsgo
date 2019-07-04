@@ -4,7 +4,7 @@
 #### Planned Features
 - [ ] TCP Server
 
-- [ ] TCP Client
+- [x] TCP Client
 
 - [ ] TCP Server which supports Concurrency
 
@@ -12,5 +12,6 @@
 
 - [ ] Docker Environment
 
-<h4>Reference</h4>
-- Basic Features : <a href="https://medium.com/@nqbao/writing-a-chat-server-in-go-3b61ccc2a8ed">Writing a chat server in go</a>
+#### Reference
+- Basic Structure : <a href="https://medium.com/@nqbao/writing-a-chat-server-in-go-3b61ccc2a8ed">Writing a chat server in go</a>
+- Implemented by myself
