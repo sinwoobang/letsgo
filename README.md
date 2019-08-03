@@ -2,7 +2,7 @@
 (Toy Project) A simple TCP chat server written in Golang
 
 #### Planned Features
-- [ ] TCP Server
+- [x] TCP Server
 
 - [x] TCP Client
 
