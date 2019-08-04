@@ -8,7 +8,7 @@
 
 - [ ] TCP Server which supports Concurrency
 
-- [ ] Test Code
+- [x] Test Code (a little bit)
 
 - [x] Docker Environment
 
