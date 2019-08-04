@@ -10,7 +10,7 @@
 
 - [ ] Test Code
 
-- [ ] Docker Environment
+- [x] Docker Environment
 
 #### Reference
 - Basic Structure : <a href="https://medium.com/@nqbao/writing-a-chat-server-in-go-3b61ccc2a8ed">Writing a chat server in go</a>
